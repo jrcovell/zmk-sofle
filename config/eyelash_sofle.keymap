@@ -147,11 +147,11 @@
 
         layer_5 {
             bindings = <
-&trans  &trans        &trans            &trans        &trans          &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans        &trans            &trans        &trans          &trans    &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans        &trans            &trans        &trans          &trans    &trans  &trans  &kp BACKSPACE   &trans          &kp DELETE       &trans  &trans
-&trans  &trans        &trans            &trans        &trans          &trans    &trans  &trans  &kp ENTER       &trans          &trans           &trans
+&trans  &trans            &trans        &trans        &trans          &trans       &trans  &trans     &trans          &trans          &trans           &trans  &trans
+&trans  &trans            &trans        &trans        &trans          &trans       &trans  &trans     &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans       &trans  &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans            &trans        &trans        &trans          &trans       &trans  &trans     &kp BACKSPACE   &trans          &kp DELETE       &trans  &trans
+&trans  &trans            &trans        &trans        &trans          &kp SPACE    &trans  &kp SPACE  &kp ENTER       &trans          &trans           &trans
             >;
         };
 
