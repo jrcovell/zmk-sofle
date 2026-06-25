@@ -30,13 +30,13 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - R
-  - S
-  - T
+  - {t: S, h: LGUI}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - M
-  - N
-  - E
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: RGUI}
   - I
   - O
   - {t: '''', s: '"'}
