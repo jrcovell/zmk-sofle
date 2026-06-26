@@ -394,9 +394,9 @@ combos:
 - p: [62, 63]
   k: $$mdi:arrow-down-bold$$
 - p: [15, 14]
-  k: AltGr+$$mdi:arrow-left-bold$$
+  k: Ctl+$$mdi:arrow-left-bold$$
 - p: [17, 16]
-  k: AltGr+$$mdi:arrow-right-bold$$
+  k: Ctl+$$mdi:arrow-right-bold$$
 - p: [48, 49]
   k: $$mdi:arrow-up-bold$$
 - p: [47, 48]
