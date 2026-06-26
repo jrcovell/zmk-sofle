@@ -101,11 +101,6 @@
     combos {
         compatible = "zmk,combos";
 
-        softoff {
-            bindings = <&soft_off>;
-            key-positions = <14 28 40>;
-        };
-
         down {
             bindings = <&kp DOWN>;
             key-positions = <62 63>;
@@ -113,12 +108,27 @@
 
         windowSwap {
             bindings = <&kp RA(LEFT_ARROW)>;
-            key-positions = <47 46>;
+            key-positions = <15 14>;
         };
 
         windowSwapRight {
             bindings = <&kp RA(RIGHT_ARROW)>;
-            key-positions = <50 51>;
+            key-positions = <17 16>;
+        };
+
+        uppler {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <48 49>;
+        };
+
+        lefty {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <47 48>;
+        };
+
+        righty {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <49 50>;
         };
     };
 
