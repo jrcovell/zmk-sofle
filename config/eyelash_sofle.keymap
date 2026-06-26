@@ -110,6 +110,16 @@
             bindings = <&kp DOWN>;
             key-positions = <62 63>;
         };
+
+        windowSwap {
+            bindings = <&kp RA(LEFT_ARROW)>;
+            key-positions = <47 46>;
+        };
+
+        windowSwapRight {
+            bindings = <&kp RA(RIGHT_ARROW)>;
+            key-positions = <50 51>;
+        };
     };
 
     macros {
