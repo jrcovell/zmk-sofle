@@ -391,11 +391,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [14, 28, 40]
-  k: '&soft_off'
 - p: [62, 63]
   k: $$mdi:arrow-down-bold$$
-- p: [47, 46]
+- p: [15, 14]
   k: AltGr+$$mdi:arrow-left-bold$$
-- p: [50, 51]
+- p: [17, 16]
   k: AltGr+$$mdi:arrow-right-bold$$
+- p: [48, 49]
+  k: $$mdi:arrow-up-bold$$
+- p: [47, 48]
+  k: $$mdi:arrow-left-bold$$
+- p: [49, 50]
+  k: $$mdi:arrow-right-bold$$
