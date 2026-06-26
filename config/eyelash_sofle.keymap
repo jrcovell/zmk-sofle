@@ -107,12 +107,12 @@
         };
 
         windowSwap {
-            bindings = <&kp RA(LEFT_ARROW)>;
+            bindings = <&kp RC(LEFT_ARROW)>;
             key-positions = <15 14>;
         };
 
         windowSwapRight {
-            bindings = <&kp RA(RIGHT_ARROW)>;
+            bindings = <&kp RC(RIGHT_ARROW)>;
             key-positions = <17 16>;
         };
 
