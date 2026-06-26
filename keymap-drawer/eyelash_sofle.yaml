@@ -395,3 +395,7 @@ combos:
   k: '&soft_off'
 - p: [62, 63]
   k: $$mdi:arrow-down-bold$$
+- p: [47, 46]
+  k: AltGr+$$mdi:arrow-left-bold$$
+- p: [50, 51]
+  k: AltGr+$$mdi:arrow-right-bold$$
