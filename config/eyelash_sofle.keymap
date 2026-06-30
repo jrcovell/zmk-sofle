@@ -39,13 +39,14 @@
     behaviors {
         /* Timeless Left-hand Home Row Mods */
 
-        hml: home_row_mods_left {
+hml: home_row_mods_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred"; // Changed from balanced
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <100>;
+            global-quick-tap;          // Added
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <
@@ -55,19 +56,17 @@
                 45 46 47 48 49 50 51
                 56 57 58 59 60 61
             >;
-
-            hold-trigger-on-release;
+            // hold-trigger-on-release removed
         };
-
-        /* Timeless Right-hand Home Row Mods */
 
         hmr: home_row_mods_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "hold-preferred"; // Changed from balanced
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <100>;
+            global-quick-tap;          // Added
+            require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <
@@ -77,8 +76,7 @@
                 39 40 41 42 43 44
                 52 53 54 55
             >;
-
-            hold-trigger-on-release;
+            // hold-trigger-on-release removed
         };
 
         rsr_vol: rsr_vol {
