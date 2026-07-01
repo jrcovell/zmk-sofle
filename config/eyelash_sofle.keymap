@@ -36,8 +36,9 @@
         tap-ms = <100>;
     };
 
-behaviors {
+    behaviors {
         /* Timeless Left-hand Home Row Mods */
+
         hml: home_row_mods_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -59,6 +60,7 @@ behaviors {
         };
 
         /* Timeless Right-hand Home Row Mods */
+
         hmr: home_row_mods_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -186,8 +188,8 @@ behaviors {
 
         layer_2 {
             bindings = <
-&kp TILDE  &trans      &trans             &trans            &trans           &trans                  &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_PLAY_PAUSE  &kp K_VOLUME_UP  &kp C_BRIGHTNESS_INC    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&kp TILDE  &trans      &trans             &kp C_PLAY_PAUSE  &trans           &trans                  &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
+&trans     &kp K_MUTE  &kp K_VOLUME_DOWN  &kp C_PLAY        &kp K_VOLUME_UP  &kp C_BRIGHTNESS_INC    &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans     &trans      &trans             &trans            &trans           &kp C_BRIGHTNESS_DEC    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &sys_reset  &trans             &bootloader       &trans           &trans                  &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans      &trans             &trans            &trans           &trans                  &mkp LCLK        &trans  &trans  &trans      &trans     &trans
