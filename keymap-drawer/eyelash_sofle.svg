@@ -691,6 +691,14 @@ rect.held, rect.combo.held {
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-1">
@@ -1056,6 +1064,14 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
 </g>
 </g>
 </g>
@@ -1454,6 +1470,14 @@ rect.held, rect.combo.held {
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-3">
@@ -1835,6 +1859,14 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
 </g>
 </g>
 </g>
@@ -2234,6 +2266,14 @@ rect.held, rect.combo.held {
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-5">
@@ -2596,6 +2636,14 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
 </g>
 </g>
 </g>
@@ -2978,6 +3026,14 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="462" y="102" class="combo hold layer-activator">2</text>
 </a><use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="454" y="80" height="15" width="15.0" class="combo shifted glyph mdi:bluetooth-connect"/>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="854" y="43" width="28" height="26" class="combo"/>
+<text x="868" y="56" class="combo tap"><tspan style="font-size: 75%">&amp;macmode</tspan></text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="854" y="99" width="28" height="26" class="combo"/>
+<text x="868" y="112" class="combo tap"><tspan style="font-size: 60%">&amp;windowsm…</tspan></text>
 </g>
 </g>
 </g>

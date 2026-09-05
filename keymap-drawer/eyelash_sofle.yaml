@@ -472,3 +472,7 @@ combos:
   k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
 - p: [18, 20]
   k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
+- p: [11, 12]
+  k: '&macmode'
+- p: [24, 25]
+  k: '&windowsmode'
