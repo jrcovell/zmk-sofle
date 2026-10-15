@@ -237,7 +237,7 @@
         layer_5 {
             bindings = <
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans
