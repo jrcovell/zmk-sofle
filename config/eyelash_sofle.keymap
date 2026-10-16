@@ -177,7 +177,7 @@
 &kp TAB         &kp Q          &kp W             &kp F         &kp P          &kp B        &kp DOWN_ARROW   &kp J      &kp L          &kp U         &kp Y    &kp SEMICOLON  &kp EQUAL
 &lt 7 LEFT_WIN  &kp A          &kp R             &hml LCTRL S  &hml LSHIFT T  &kp G        &kp LEFT_ARROW   &kp M      &hmr RSHIFT N  &hmr RCTRL E  &kp I    &kp O          &kp APOS
 &kp LSHFT       &kp Z          &kp X             &kp C         &kp D          &kp V        &kp RIGHT_ARROW  &kp K      &kp H          &kp COMMA     &kp DOT  &kp FSLH       &kp NON_US_BACKSLASH
-&kp C_MUTE      &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 5 ENTER    &kp SPACE    &kp ENTER        &kp SPACE  &lt 5 ENTER    &mo 6         &kp TAB  &kp BACKSPACE
+&kp C_MUTE      &kp BACKSPACE  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 5 ENTER    &kp SPACE    &kp ENTER        &kp SPACE  &lt 8 ENTER    &mo 6         &kp TAB  &kp BACKSPACE
             >;
 
             sensor-bindings = <&rsr_vol>, <&rsr_trans>;
@@ -239,7 +239,7 @@
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans
 &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &kp LEFT      &kp DOWN      &kp UP     &kp RIGHT       &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
 &trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans
             >;
 
@@ -267,6 +267,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LBKT      &kp RBKT      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LS(LBRC)  &kp LS(RBRC)  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans        &trans        &trans  &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans     &trans     &trans    &trans         &trans
+&trans  &trans  &kp HOME  &kp UP    &kp END    &trans    &trans  &trans  &trans     &trans     &trans    &trans         &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp RIGHT_WIN  &trans
+&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT      &trans
+&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans     &trans     &trans    &trans
             >;
         };
     };
