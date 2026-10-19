@@ -236,11 +236,11 @@
 
         layer_5 {
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &kp LEFT      &kp DOWN      &kp UP     &kp RIGHT       &trans    &trans  &trans  &trans          &trans        &trans     &trans  &trans
-&trans  &trans        &trans        &trans     &trans          &trans    &trans  &trans  &trans          &trans        &trans     &trans
+&trans  &kp LS(LA(LC(KP_NUMBER_1)))  &kp LA(LC(LS(KP_NUMBER_2)))  &kp LA(LC(LS(KP_N3)))  &kp LS(LA(LC(KP_N4)))  &kp LS(LA(LC(KP_N5)))    &trans  &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &trans                       &trans                       &trans                 &trans                 &trans                   &trans  &trans  &kp HOME        &kp UP_ARROW  &kp END    &trans  &trans
+&trans  &kp LEFT_GUI                 &kp LEFT_ALT                 &kp LCTRL              &kp LEFT_SHIFT         &trans                   &trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &kp LEFT                     &kp DOWN                     &kp UP                 &kp RIGHT              &trans                   &trans  &trans  &trans          &trans        &trans     &trans  &trans
+&trans  &trans                       &trans                       &trans                 &trans                 &trans                   &trans  &trans  &trans          &trans        &trans     &trans
             >;
 
             display-name = "5";
