@@ -588,7 +588,7 @@ layers:
   '9':
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+!
-  - Sft+@
+  - Sft+Ctl+@
   - Ctl+Sft+#
   - Sft+Ctl+$
   - Sft+Ctl+%
@@ -613,7 +613,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Ctl+!
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
