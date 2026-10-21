@@ -282,11 +282,11 @@
 
         layer_9 {
             bindings = <
-&trans  &kp LC(LS(EXCLAMATION))  &kp LS(AT_SIGN)  &kp LC(LS(POUND))  &kp LS(LC(DOLLAR))  &kp LS(LC(PERCENT))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans           &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans           &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans           &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                   &trans           &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(EXCLAMATION))  &kp LS(LC(AT_SIGN))  &kp LC(LS(POUND))  &kp LS(LC(DOLLAR))  &kp LS(LC(PERCENT))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans               &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LC(EXCLAMATION))  &trans               &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans               &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans               &trans             &trans              &trans                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
